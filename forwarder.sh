@@ -1,4 +1,4 @@
-read -p 'Enter Main Server\'s IP: ' IP
+read -p 'Enter Main Server IP: ' IP
 echo "Your Main Server IP is: $IP"
 sudo apt  install iptables iptables-persistent
 sudo sysctl net.ipv4.ip_forward=1
